@@ -1,0 +1,107 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+  color: #475569;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 30px;
+
+  background-size: cover;
+  min-height: 30vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ul-list {
+  padding-left: 0px;
+}
+.Money-manager-class {
+  color: #0b69ff;
+}
+.heading {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.app-container {
+  padding: 20px;
+}
+.tabel-cell {
+  flex: 1;
+  margin-left: 10px;
+  width: 100px;
+  flex-wrap: wrap;
+}
+
+.history-item1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.add-transaction-container {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.history-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+}
+.add-heading {
+  font-size: 20px;
+}
+.title-input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.amount-input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.select-input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.add-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #0b69ff;
+}
+.title-label {
+  margin-bottom: 10px;
+}
+.history-heading {
+  font-size: 20px;
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+
+.history-item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid #000;
+  list-style-type: none;
+  padding-left: 0px;
+  border-top:none;
+}
+.delete-btn {
+  border-style: none;
+  background-color: transparent;
+}
+.delete-img {
+  height: 25px;
+}
+.amount {
+  font-size: 12px;
+}
+.title {
+  font-size: 12px;
+  padding-left: 10px;
+}
+.type {
+  font-size: 12px;
+}
